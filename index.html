@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
     <title>ProSaúde - Links</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -39,13 +43,13 @@
             <!-- Links -->
             <div class="w-full space-y-4">
                 <!-- Instagram -->
-                <a href="https://www.instagram.com/prosaudeirati/" target="_blank" class="link-card flex items-center justify-center gap-3 w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white py-3 rounded-lg hover:opacity-90">
+                <a href="https://www.instagram.com/prosaudeirati/" target="_blank" rel="noopener noreferrer" class="link-card flex items-center justify-center gap-3 w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white py-3 rounded-lg hover:opacity-90">
                     <i class="fab fa-instagram text-xl"></i>
                     <span class="font-medium">Instagram</span>
                 </a>
                 
                 <!-- Facebook -->
-                <a href="https://www.facebook.com/profile.php?id=100063112966759" target="_blank" class="link-card flex items-center justify-center gap-3 w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 rounded-lg hover:opacity-90">
+                <a href="https://www.facebook.com/profile.php?id=100063112966759" target="_blank" rel="noopener noreferrer" class="link-card flex items-center justify-center gap-3 w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 rounded-lg hover:opacity-90">
                     <i class="fab fa-facebook text-xl"></i>
                     <span class="font-medium">Facebook</span>
                 </a>
